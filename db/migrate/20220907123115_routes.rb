@@ -3,7 +3,6 @@ class Routes < ActiveRecord::Migration[7.0]
     create_table :routes do |t|
       t.string :RouteName
       t.integer :BusNo
-
   end
 end
 end
