@@ -5,7 +5,6 @@ class Passengers < ActiveRecord::Migration[7.0]
       t.integer :Phone
       t.string :Route
       t.string :BusNo
-
     end
   end
 end
