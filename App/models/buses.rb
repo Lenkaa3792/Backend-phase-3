@@ -1,1 +1,2 @@
-class Buses <
+class Buses < Activerecord::Base
+end 
