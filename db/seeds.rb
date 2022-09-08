@@ -1,10 +1,9 @@
  
- 15.times do 
-Buses.create(
+15.times do 
+  Bus.create(
     vehicle_registration: Faker::Vehicle.vin,
     phone: Faker::Phone.number,
     insurance: "insured"
-
 )
  end
  
@@ -14,12 +13,10 @@ Buses.create(
 #       t.integer :phone
 #        t.string :vehicle_registration
 15.times do
-    Passengers.create(
+    Passenger.create(
         Name: Faker::Name.name,
         phone: Faker::Phone.number,
         location: "Mombasa"
-
-
     )
 end
 
@@ -30,7 +27,7 @@ end
 #   end
 
 15.times do
-    Routes.create(
+    Route.create(
         location: "Mombasa",
         Name: Faker::Name.name
 
